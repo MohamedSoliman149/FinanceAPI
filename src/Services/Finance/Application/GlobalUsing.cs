@@ -1,0 +1,15 @@
+﻿global using BuildingBlocks.Common;
+global using BuildingBlocks.CQRS;
+global using FinanceAPI.Application.DTOs.FinanceDTOs;
+global using BuildingBlocks.Pagination;
+global using FinanceAPI.Domain.Entities;
+global using Application.Interfaces.Repository;
+global using Microsoft.AspNetCore.Identity;
+global using Microsoft.AspNetCore.Http;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.DependencyInjection;
+global using FinanceAPI.Domain.Enums;
+global using FluentValidation;
+global using FinanceAPI.Application.Extentions;
+global using FinanceAPI.Application.Features.Users.Commands.CreateUser;
+global using FinanceAPI.Application.Features.Users.Commands.Login;
