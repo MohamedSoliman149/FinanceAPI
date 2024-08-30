@@ -1,0 +1,9 @@
+- I create Admin To this Repo Email : admin@Example.com Password is: Admin@123 
+- first you can run command Update-database to get seeding data to your data base and to create data base 
+- run the application and login then take the token and Authenticate your swagger addint "Bearer {{token}}"
+- now you can use the application.
+
+note that:
+   I use clean Architucture with CQRS and Medaitor 
+   I install Medaitor and Fluent Validations and every common Packages in BuldingBlocks Layer
+   We can use BuldingBlocks Layer to install common Backages to unify versions and avoid install it in every service
